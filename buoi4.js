@@ -81,10 +81,8 @@ function findTeacher() {
 
 
 for (let i = 0; i < arrClass.length; i++) {
-    for9let j = 0;
-    j < arrClass[i].students.length;
-    j++
-    if (arrClass[i].name === "Pham Ha Anh 9B") {
+    for (let j = 0; j < arrClass[i].students.length; j++
+        if (arrClass[i].name === "Pham Ha Anh 9B") {
 
+        }
     }
-}
