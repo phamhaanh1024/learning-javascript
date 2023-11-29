@@ -31,8 +31,15 @@
 // console.log(arr)
 
 // 9. Viết một hàm JavaScript để kiểm tra xem một mảng có chứa số nguyên âm hay không và trả về kết quả tương ứng.
+//  function checkSoNguyenAm (number){
+//     if(number<0){
+//         return true
+//     }else{
+//         return false
+//     }
+//  }
 
-//function kt(a){
+// function kt(a){
 //     let dem=0
 //     for(let i=0;i<a.length;i++){
 //         if(a[i]<0){
@@ -44,11 +51,36 @@
 //         console.log("Không có số nguyên âm")
 //     }
 // }
-// kt([2,-3,5,6])
+// find()
+// function kt(arr){
+//     const find =arr.find(element -> element < 0)
+//     return find
+// }
+// console.log(kt([2,-3,5,6]))
+// // kt([2,-3,5,6])
+
+
+
 //11. Viết chương trình JavaScript để đảo ngược một chuỗi sử dụng mảng và vòng lặp.
-const xau = "olleh"
-let arr = []
-for (let i = xau.length - 1; i >= 0; i--) {
-    arr += xau[i]
-}
-console.log(arr)
+// const xau = "olleh"
+// let arr = ""
+// for (let i = xau.length - 1; i >= 0; i--) {
+//     arr += xau[i]
+// }
+// console.log(arr)
+// 14. Tạo một mảng số nguyên và loại bỏ các số lẻ khỏi mảng, sau đó in ra kết quả.
+// const arr=[1,2,3,4,5]
+// let  arn=[]
+// for(let i=0;i<arr.length;i++){
+//         if(arr[i]%2==0){
+//             arn.push(arr[i])
+//         }
+// }
+// console.log(arn)
+// 15. Viết chương trình JavaScript để tạo một danh sách danh bạ (address book) bằng cách sử dụng đối tượng, mỗi người có tên, số điện thoại và địa chỉ, sau đó in ra danh bạ.
+// const danhba=[{
+//     name:"Phạm Hà Anh",
+//     phone:0393197321,
+//     Address:"Hà Nội"
+// }]
+// console.log(danhba)
