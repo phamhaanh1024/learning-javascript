@@ -126,34 +126,34 @@
 
 // 15. Viết hàm JavaScript để thực hiện tìm kiếm tuần tự trong một mảng đối tượng và trả về các đối tượng thỏa mãn điều kiện cụ thể.
 
-const people = [{
-        name: "Dung",
-        age: 20,
-        city: "HaNoi"
-    },
-    {
-        name: "Nga",
-        age: 20,
-        city: "QuangNinh"
-    },
-    {
-        name: "Thuong",
-        age: 19,
-        city: "CaoBang"
-    },
-    {
-        name: "Hung",
-        age: 19,
-        city: "PhucTho"
-    },
-]
-const findstring = (arr, city) => {
-    const s = []
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i].city === city) {
-            s.push(arr[i].name)
-        }
-    }
-    return s
-}
-console.log(findstring(people, "CaoBang"))
+// const people = [{
+//         name: "Dung",
+//         age: 20,
+//         city: "HaNoi"
+//     },
+//     {
+//         name: "Nga",
+//         age: 20,
+//         city: "QuangNinh"
+//     },
+//     {
+//         name: "Thuong",
+//         age: 19,
+//         city: "CaoBang"
+//     },
+//     {
+//         name: "Hung",
+//         age: 19,
+//         city: "PhucTho"
+//     },
+// ]
+// const findstring = (arr, city) => {
+//     const s = []
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i].city === city) {
+//             s.push(arr[i].name)
+//         }
+//     }
+//     return s
+// }
+// console.log(findstring(people, "CaoBang"))
